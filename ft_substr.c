@@ -1,5 +1,5 @@
-// Creates & returns a new string, which is the same as a substring of string <s>
-// This substring starts at <start> & has max length <len>
+/* Creates & returns a new string, which is the same as a substring of string <s>
+This substring starts at <start> & has max length <len> */
 
 #include "libft.h"
 #include <stdlib.h>

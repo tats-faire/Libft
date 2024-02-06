@@ -1,5 +1,5 @@
-// Creates and returns a new string
-// which is <s1> concatenated with <s2>
+/* Creates and returns a new string
+which is <s1> concatenated with <s2> */
 
 #include "libft.h"
 #include <stdlib.h>

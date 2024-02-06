@@ -1,5 +1,5 @@
-// Copies <n> characters from memory area <src> to <dest>
-// and returns <dest> (a pointer to the destination)
+/* Copies <n> characters from memory area <src> to <dest>
+and returns <dest> (a pointer to the destination) */
 
 #include "libft.h"
 

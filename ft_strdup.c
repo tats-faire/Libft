@@ -1,6 +1,5 @@
-// Allocates memory for a copy of string <s1>
-// and copies <s1>
-// Returns a pointer to the copy
+/* Allocates memory for a copy of string <s1> and copies <s1>
+Returns a pointer to the copy */
 
 #include "libft.h"
 #include <stdlib.h>

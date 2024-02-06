@@ -1,6 +1,6 @@
-// Applies function <f> to each char of string <s>
-// and returns the resulting new string
-// or null if the allocation of memory for new string failed
+/* Applies function <f> to each char of string <s>
+and returns the resulting new string
+or NULL if the allocation of memory for new string failed */
 
 #include "libft.h"
 #include <stdlib.h>

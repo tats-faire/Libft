@@ -1,5 +1,5 @@
-// Converts an integer into a string
-// Can also takes negative numbers
+/* Converts an integer into a string
+Can also take negative numbers */
 
 #include <stdlib.h>
 

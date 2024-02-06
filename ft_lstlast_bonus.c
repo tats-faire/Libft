@@ -1,5 +1,4 @@
-// Returns last node of a list
-// when given the beginning of the list
+// Returns last node of a list ehen given the beginning of the list
 
 #include "libft.h"
 

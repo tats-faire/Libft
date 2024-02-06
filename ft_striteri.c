@@ -1,4 +1,4 @@
-// Applies the function <f> to each char of the string <s>
+// Applies the function <f> to each char of string <s>
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {

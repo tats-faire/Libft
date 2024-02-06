@@ -1,6 +1,6 @@
-// Copies <len> characters from memory area <src> to <dest>
-// and returns <dest> (a pointer to the destination)
-// SAFER than ft_memcpy for overlapping memory blocks
+/* Copies <len> characters from memory area <src> to <dest>
+and returns <dest> (a pointer to the destination)
+Safer than ft_memcpy for overlapping memory blocks */
 
 #include "libft.h"
 

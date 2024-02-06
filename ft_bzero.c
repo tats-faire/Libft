@@ -1,5 +1,5 @@
-// Erases data in the first <n> bytes of of the memory area
-// pointed to by <str> by writing nulls there
+/* Erases data in the first <n> bytes of of the memory area
+pointed to by <str> by writing nulls there */
 
 #include "libft.h"
 

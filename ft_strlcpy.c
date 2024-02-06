@@ -1,5 +1,5 @@
-// Copies up until <dest_size> chars of a string into <dest> from <src>
-// and returns length of the copied string (<src>)
+/* Copies up until <dest_size> chars of a string into <dest> from <src>
+and returns length of the copied string (<src>) */
 
 #include "libft.h"
 

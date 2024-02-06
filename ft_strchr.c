@@ -1,5 +1,5 @@
-// Searches for the character <c> in the string pointed at by <str>
-// Returns pointer to first occurence of <c> or null if not found
+/* Searches for the character <c> in the string pointed at by <str>
+Returns pointer to first occurence of <c> or null if not found */
 
 #include "libft.h"
 

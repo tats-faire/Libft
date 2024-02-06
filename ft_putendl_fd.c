@@ -1,5 +1,5 @@
-// Writes a string to output, followed by newline
-// File descriptor values: 0 = standard input; 1 = standard output; 2 = standard error
+/* Writes a string to output, followed by newline
+File descriptor values: 0 = standard input; 1 = standard output; 2 = standard error */
 
 #include "libft.h"
 

@@ -1,6 +1,6 @@
-// Frees the memory of the content of the node in <*lst>
-// Whereas the memory of "next" is not freed
-// <*ft_del> is the adress of the function which is used to delete the content
+/* Frees the memory of the content of the node in <*lst>
+Whereas the memory of "next" is not freed
+<*ft_del> is the adress of the function which is used to delete the content */
 
 #include <stdlib.h>
 

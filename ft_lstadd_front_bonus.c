@@ -1,6 +1,6 @@
-// Adds a new node at the beginning of a list
-// <lst> is address of (pointer to) first link of list (root)
-// <new> is address of (pointer to) node to be added
+/* Adds a new node at the beginning of a list
+<lst> is address of (pointer to) first link of list (root)
+<new> is address of (pointer to) node to be added */
 
 #include "libft.h"
 

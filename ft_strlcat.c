@@ -1,6 +1,6 @@
-// Concenates a string
-// (adds max (<size> - (<len> of <dest>) - 1) chars of <src> after <dest>)
-// and returns resulting length
+/* Concenates a string
+(adds max (<size> - (<len> of <dest>) - 1) chars of <src> after <dest>)
+and returns resulting length */
 
 #include "libft.h"
 

@@ -1,5 +1,5 @@
-// Allocates and returns a new node, filled with <content>
-// "next" is initialized to NULL ( = end of list)
+/* Allocates and returns a new node, filled with <content>
+<next> is initialized to NULL ( = end of list) */
 
 #include "libft.h"
 #include <stdlib.h>

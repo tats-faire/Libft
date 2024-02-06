@@ -1,7 +1,3 @@
-// Creates and returns a string
-// which is <s1> but with all characters specified in <trim> trimmed
-// from the string's beginning and end
-
 #include "libft.h"
 #include <stdbool.h>
 
@@ -22,8 +18,8 @@ bool	ft_search_helper(char const hay, char const *needles)
 	return (false);
 }
 
-// Counts how many chars need to be trimmed from the beginning of the string
-// Stops counting as soon as the next char in <s1> is not in <trim>
+/* Counts how many chars need to be trimmed from the beginning of the string
+Stops counting as soon as the next char in <s1> is not in <trim> */
 size_t	ft_search(char const *haystack, char const *needles)
 {
 	size_t	trim_counter;
@@ -39,9 +35,9 @@ size_t	ft_search(char const *haystack, char const *needles)
 	return (trim_counter);
 }
 
-// Same as ft_search, but goes through s1 backwards:
-// Counts how many chars need to be trimmed from the end of the string
-// Stops counting as soon as the previous char in <s1> is not in <trim>
+/* Same as ft_search, but goes through s1 backwards:
+Counts how many chars need to be trimmed from the end of the string
+Stops counting as soon as the previous char in <s1> is not in <trim> */
 size_t	ft_search_backwards(char const *haystack, char const *needles)
 {
 	size_t	trim_counter;
@@ -59,6 +55,9 @@ size_t	ft_search_backwards(char const *haystack, char const *needles)
 	return (trim_counter);
 }
 
+/* Creates and returns a string
+which is <s1> but with all characters specified in <trim> trimmed
+from the string's beginning and end */
 char	*ft_strtrim(char const *s1, char const *trim)
 {
 	char	*trimmed_str;

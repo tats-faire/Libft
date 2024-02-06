@@ -1,8 +1,5 @@
 // Converts the string <str> to an integer
 
-/* #include <stdio.h>
-#include <stdlib.h> */
-
 int	ft_atoi(const char *str)
 {
 	int				i;
@@ -30,11 +27,3 @@ int	ft_atoi(const char *str)
 	return ((int)number);
 }
 
-/* int main(void)
-{
-	char test[] = "+-2147483648";
-	int result = ft_atoi(test);
-	int test_result = atoi(test);
-	printf("My result is %i \n", result);
-	printf("The result should be %i", test_result);
-} */

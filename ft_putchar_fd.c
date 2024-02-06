@@ -1,5 +1,5 @@
-// Writes a character to output
-// File descriptor values: 0 = standard input; 1 = standard output; 2 = standard error
+/* Writes a character to output
+File descriptor values: 0 = standard input; 1 = standard output; 2 = standard error */
 
 #include <unistd.h>
 

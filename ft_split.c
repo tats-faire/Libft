@@ -1,12 +1,9 @@
-// Allocates & returns a (2-dimensional) array of strings
-// which is created by splitting <str> using the char <c> as delimiter
-
 #include "libft.h"
 #include <stdlib.h>
 
-// Checks if any given character in <str> should be treated as a delimiter
-// Results: 0 = no delimiter; 1 = real delimiter;
-// 2 = fake delimiter (first or last in string, or next char is also c)
+/* Checks if any given character in <str> should be treated as a delimiter
+Results: 0 = no delimiter; 1 = real delimiter;
+2 = fake delimiter (first or last in string, or next char is also c) */
 
 size_t	checkdelimiter(char const *str, char c, size_t i)
 {
@@ -26,7 +23,6 @@ size_t	checkdelimiter(char const *str, char c, size_t i)
 }
 
 // Counts how many characters this chunk has (until next occurance of <c> or end of <str>)
-
 size_t	count_word_len(char const *str, char c, size_t i)
 {
 	size_t	counter;
@@ -46,7 +42,6 @@ size_t	count_word_len(char const *str, char c, size_t i)
 }
 
 // Counts how many chunks of string <str> are separated by char <c>
-
 size_t	count_words(char const *str, char c)
 {
 	size_t	i;
@@ -69,6 +64,8 @@ size_t	count_words(char const *str, char c)
 	return (word_counter);
 }
 
+/* Allocates & returns a (2-dimensional) array of strings
+which is created by splitting <str> using the char <c> as delimiter */
 char	**ft_split(char const *str, char c)
 {
 	char	**cut_string;

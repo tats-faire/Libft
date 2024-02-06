@@ -1,6 +1,5 @@
-/* Creates a new list which is
-<lst> with the function <f> applied on each node.
-returns the resulting list or NULL
+/* Creates a new list which is <lst> with the function <f> applied on each node.
+Returns the resulting list or NULL
 The <ft_del> function is used to delete the content of a node if needed */
 
 #include "libft.h"

@@ -1,5 +1,5 @@
-// Deletes & frees the given node and each following node,
-// and sets pointer to list to null
+/* Deletes & frees the given node and each following node,
+and sets pointer to list to null */
 
 #include "libft.h"
 

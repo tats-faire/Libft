@@ -1,5 +1,5 @@
-// Writes an int to output
-// File descriptor values: 0 = standard input; 1 = standard output; 2 = standard error
+/* Writes an int to output
+File descriptor values: 0 = standard input; 1 = standard output; 2 = standard error */
 
 #include "libft.h"
 
